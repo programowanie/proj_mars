@@ -10,7 +10,7 @@
 
 using namespace std;
 
-
+vector <string> Room::namesofrooms;
 
 vector <string> Colonist::Names;
 int Colonist::_counter = 1;
@@ -24,6 +24,7 @@ void Colonist::init()
 		back_inserter(Names));
 	file.close();
 }
+
 void Room::init()
 {
 	ifstream file1("Rooms.txt");

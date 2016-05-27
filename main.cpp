@@ -36,6 +36,6 @@ int main(int argc, char* argv[])
 	 //adapters(colonists, n);
 
 
-	
+	delete [] colonists;	
 
 }
