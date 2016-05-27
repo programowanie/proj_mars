@@ -34,14 +34,23 @@ void Room::init()
 	file1.close();
 }
 
+Colonist * Colonist::createColonists(int n)
+{
+	Colonist *colonists = new Colonist[5+n];
+	for (int i = 0; i < 5; ++i)
+		colonists[i].Occupation = Pool[i];
+
+	return colonists;
+}
+
+
 Colonist::Colonist()
 {
 	static int amountOfNames = (init(), Names.size());
 	Name = Names[rand() % amountOfNames];
 	ID = _counter++;
 	Level = rand() % 4;
-	if (amountOfNames > 5) Occupation = Pool[rand() % 5];
-	
+	if (amountOfNames > 5) Occupation = Pool[rand() % 5];	
 }
 
 string Colonist::description()

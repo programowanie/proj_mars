@@ -23,13 +23,15 @@ private:
 
 	string Name;
 	string Occupation;
-	string Pool[5]	= {"Maintenance worker", "Medic" , "Hydroponics caretaker" , "Envivorment control operator" , "Cook"};
+	static string Pool[5]	= {"Maintenance worker", "Medic" , "Hydroponics caretaker" , "Envivorment control operator" , "Cook"};
 	int Level;
 	int ID;
 
 
 public:
 	Colonist();
+
+	static Colonist * createColonists(int n);
 
 	static int counter() { return _counter; }
 	string name() { return Name; }
