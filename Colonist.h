@@ -44,5 +44,3 @@ public:
 
 	string description();
 };
-
-
