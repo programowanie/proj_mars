@@ -1,7 +1,7 @@
-Envivorment control
-Mess Hall
+Envivorment_control
+Mess_Hall
 Hydroponics
-Med Bay
-Maintenance room
-Living Section
+Med_Bay
+Maintenance_room
+Living_Section
 
