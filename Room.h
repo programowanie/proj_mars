@@ -21,7 +21,6 @@ private:
 
 	static vector <string> namesofrooms;
 	static int Counter;
-
 	string NameOfRoom;
 	int ID;
 
@@ -31,7 +30,6 @@ public:
 	static int counter() { return Counter; }
 	string Name() { return NameOfRoom; }
 	int id() { return ID; }
-
 	string description1();
 
 };
