@@ -12,6 +12,7 @@
 using namespace std;
 
 vector <string> Room::namesofrooms;
+int Room::Counter = 1;
 
 void Room::init()
 {
@@ -22,6 +23,13 @@ void Room::init()
 	file1.close();
 }
 
+
+Room::Room()
+{
+	static int amountOfRooms = (init(), namesofrooms.size());
+	NameOfRoom = namesofrooms[rand() % amountOfRooms];
+	ID = Counter++;
+}
 
 string Room::description1()
 {
