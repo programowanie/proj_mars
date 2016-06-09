@@ -15,5 +15,5 @@ Sama baza posiada statystyki takie jak Powietrze, Woda, Jedzenie oraz "Punkty ż
 - Farmer (zajmuje się hyrdoponiką)
 - Pracownik kontroli środowiska (Pilnuje, żeby w bazie było odpowiednio dużo powietrza i wody)
 
-# Zrezygnowałem z modułów ze względu na trudności z rozwiązaniem kwestii tablicy/wektora, który miałby przechowywać
+# Zrezygnowałem z modułów ze względu na trudności z rozwiązaniem kwestii tablicy/wektora, który miałby przechowywać kolonistów i tworzyć wrażenie pseudo przestrzeni
 
