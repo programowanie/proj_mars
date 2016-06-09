@@ -1,3 +1,3 @@
 all:
 	g++ *.cpp -std=c++0x -o mars
-	./mars
+	./mars 20
