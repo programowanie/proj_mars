@@ -1,7 +1,0 @@
-Envivorment_control
-Mess_Hall
-Hydroponics
-Med_Bay
-Maintenance_room
-Living_Section
-
