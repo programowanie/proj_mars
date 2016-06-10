@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
      if(Air <= 0) cout << " We've ran out of Air ";
     	 else if(Water <= 0) cout << "We've ran out of Water "; 
     		else if(Food <= 0) cout << "We've ran out of Food " ;
-    			else if(Base_HP <= 0) cout << "Our base has fallen apart due to Maintenance workers' laziness... Great jobs a-holes" << endl;
+    			else if(Base_HP <= 0) cout << "Our base has fallen apart due to Maintenance workers' laziness... " << endl;
     			exit(0);
      }
      sleep(1); 
